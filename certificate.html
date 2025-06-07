@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate of Completion</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;700&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .certificate {
+            width: 900px;
+            height: 600px;
+            background: white;
+            padding: 40px;
+            position: relative;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+            border: 10px solid #0a3d62;
+        }
+
+        .header {
+            background: #0a3d62;
+            height: 100px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-left: 40px;
+            font-size: 44px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .content {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .content h2 {
+            font-size: 30px;
+            font-family: 'Great Vibes', cursive;
+            color: #000;
+        }
+
+        .content p {
+            font-size: 18px;
+            color: #555;
+            margin: 10px 0;
+        }
+
+        .content .capital {
+            text-transform: uppercase;
+        }
+
+        .recipient {
+            font-size: 28px;
+            font-weight: bold;
+            color: #0a3d62;
+            text-transform: capitalize;
+            margin: 20px 0;
+        }
+
+        .recipientt {
+            font-size: 28px;
+            font-weight: 200;
+            color: #0a3d62;
+            text-transform: capitalize;
+            margin: 20px 0;
+            font-family:'Dancing Script','Great Vibes', cursive;
+        }
+
+        .course {
+            font-size: 22px;
+            font-weight: bold;
+            color: #000;
+        }
+
+        .date {
+            font-size: 16px;
+            font-style: italic;
+            margin-top: 30px;
+        }
+
+        .signatures {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 60px;
+            padding: 0 40px;
+            font-size: 16px;
+        }
+
+        .signatures div {
+            width: 40%;
+            text-align: center;
+            border-top: 2px solid #333;
+            padding-top: 10px;
+        }
+
+        .seal {
+            position: absolute;
+            bottom: 80px;
+            left: 40px;
+            width: 120px;
+        }
+
+        .logo {
+            position: absolute;
+            top: 30px;
+            right: 40px;
+            width: 120px;
+        }
+        
+       .logo-container {
+            position: absolute;
+            top: -10px;
+            right: 10px;
+            text-align: center;
+        }
+
+.logo-container img {
+    width: 130px;
+}
+/* Circular Text Styling */
+.circular-text {
+    position: absolute;
+    top: 50%; /* Centers text vertically */
+    left: 50%;
+    transform: translate(-110%, 5%);
+    width: 130px; /* Same as image width */
+    height: 130px; /* Same as image height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffc40065; /* Gold color */
+    color: #000;
+    text-transform: uppercase;
+}
+
+.circular-text span {
+    position: absolute;
+    transform-origin: -20px 40px;
+}
+    </style>
+</head>
+<body>
+
+<div class="certificate">
+    <div class="header">Certificate of Completion</div>
+    <div class="logo-container">
+        <img src="award-gold-tech-solution.png" class="logo" alt="Award">
+    </div>
+    <div class="content">
+        <span></span>
+        <h2>Tech Solutions</h2>
+        <p>This is to certify that</p>
+        <h2 class="recipient">[Hemant Menaria]</h2>
+        <p class="capital">has successfully completed the course</p>
+        <p class="course">[completed a 6-month internship course in Web Development, gaining hands-on experience in HTML, CSS, JavaScript, SQL, and React.js.]</p>
+        <p class="course">[Project- Build Responsive Website Projects Using React liberarty ]</p>
+        <p class="date">Dated: [04-05-2024]</p>
+    </div>
+
+    <div class="signatures">
+        <div>
+            <h2 class="recipientt">[Avinash yadav]</h2>
+            <strong>Course Director</strong>
+            <br>Signature
+        </div>
+        <div>
+            <h2 class="recipientt">[Mahesh sharma]</h2>
+            <strong>Head of Training</strong>
+            <br>Signature
+        </div>
+    </div>
+</div>
+</body>
+</html>
